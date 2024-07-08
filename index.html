@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></head>
+<body>
+    <header>
+     <div class="container">
+        <div class="row">
+            <!-- HEADER Column -->
+            <div class="col-lg-12 col-md-12 col-12 order-lg-1 order-md-1 order-1">
+                <div class="p-3 border bg-light">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="index.html">МЕНЮ</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Головна</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html">Посилання</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Обрати
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="index.html">1 варіант</a></li>
+                                  <li><a class="dropdown-item" href="index.html">2 варіант</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="index.html">Інше</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+     </div>   
+    </header>
+    <div class="container">
+        <div class="row">
+            <!-- LEFT Column -->
+            <div class="col-lg-3 col-md-6 col-12 order-lg-2 order-md-3 order-2">
+                <div class="p-3">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/photo1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/photo2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/photo3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/photo4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Назад</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Вперед</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <!-- MAIN Column -->
+            <div class="col-lg-6 col-md-12 col-12 order-lg-2 order-md-2 order-3">
+                <div class="p-3">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              1 текст
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Просто текст з використанням  <strong>strong.</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              2 текст
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Тут також текст
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              3 текст
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Тут більше тексту. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat incidunt magnam eius dolor beatae esse doloremque reiciendis, nam optio itaque excepturi temporibus placeat, harum consectetur facere molestias odio minima repudiandae cumque a possimus dicta sapiente voluptates quos? Possimus ea pariatur earum magni, sit itaque officia voluptate fugiat quaerat obcaecati eveniet rem explicabo distinctio corrupti? Minus.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- RIGHT Column -->
+            <div class="col-lg-3 col-md-6 col-12 order-lg-2 order-md-3 order-4">
+                <div class="p-3"></div>
+                    <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset>
+                    <!-- Перша строка -->
+                
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <input type="text" class="form-control" placeholder="Ваш нік" name="Нік" value=" " aria-label="Username" aria-describedby="addon-wrapping">
+                      </div>
+                
+                    <!-- Друга строка -->
+                    <div class="input-group mb-2">
+                    <label class="input-group-text" for="inputGroupSelect01">Стать</label>
+                    <select class="form-select" id="inputGroupSelect01" name="Стать">
+                      <option selected>Оберіть</option>
+                      <option value="Чоловік">Чоловік</option>
+                      <option value="Жінка">Жінка</option>
+                    </select>
+                    </div>
+                    <!-- Третя строка -->
+                    <div class="p-3 border bg-light">
+                    <div class="input-group flex-nowrap">
+                        <input type="text" class="form-control" placeholder="Ваше ім'я" aria-label="Username" aria-describedby="addon-wrapping" name="Ім'я" value=" ">
+                      </div>
+                    </div>
+                    <!-- Четверта строка -->
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Вибір" value="Один" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Один
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Вибір" value="Два" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Два
+                    </label>
+                    </div>
+                    <!-- П'ята строка -->
+                    <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Напишіть текст</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Текст" name="Текст" value=" ">
+                    </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-light">Видалити</button>
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER Column -->
+                <div class="col-lg-12 col-md-12 col-12 order-lg-3 order-md-4 order-5">
+                    <div class="p-3 border bg-light">Тут знаходиться footer</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
